@@ -92,6 +92,7 @@
   border-radius: 15px;
   margin-right: 5px;
   text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.642) 0px 5px 10px;
 }
 .message__info {
   display: flex;
@@ -111,6 +112,7 @@
   color: rgb(242, 214, 189);
   margin-left: 5px;
   margin-right: 0;
+  box-shadow: rgba(0, 0, 0, 0.642) 0px 5px 10px;
 }
 .message-row--own .message__info {
   flex-direction: row-reverse;
@@ -176,6 +178,8 @@
   background-color: var(--color);
   padding: 10px;
   border-radius: 15px;
+
+  box-shadow: rgba(0, 0, 0, 0.642) 0px 5px 10px;
 }
 .bubble__img img {
   border: none;

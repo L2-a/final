@@ -1,4 +1,5 @@
 .follower {
+  color: var(--color);
   margin-top: 15px;
   box-sizing: border-box;
   display: flex;

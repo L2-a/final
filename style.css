@@ -36,7 +36,7 @@ body {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  background-image: url(../photo/background.jpg);
+  background-image: url(../kokoa-final/photo/background.jpg);
 
   background-size: 100% 100%;
   padding: 20px 25px;

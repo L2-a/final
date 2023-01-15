@@ -1,0 +1,93 @@
+/*Home*/
+@keyframes welcome {
+  0% {
+    transform: rotateZ(-20deg);
+  }
+  25% {
+    transform: rotateZ(20deg);
+  }
+  50% {
+    transform: rotateZ(-20deg);
+  }
+  100% {
+    transform: rotateZ(20deg);
+  }
+}
+
+.ani a > img:focus,
+.ani a > img:hover {
+  animation: welcome 0.8s ease-in-out 3 alternate-reverse forwards;
+  will-change: auto;
+}
+
+/*Chat*/
+@keyframes boom {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+.chat__timestamp {
+  animation: boom 1s ease-in-out 1 normal forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes xoong {
+  from {
+    opacity: 0;
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(200px);
+    opacity: 1;
+  }
+}
+
+.xoong {
+  position: relative;
+  right: 200px;
+  animation: xoong 1s ease-in-out 1 normal forwards;
+  animation-delay: 2s;
+}
+
+@keyframes xoong2 {
+  from {
+    opacity: 0;
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-200px);
+    opacity: 1;
+  }
+}
+
+.xoong2 {
+  position: relative;
+  right: -200px;
+  animation: xoong2 1s ease-in-out 1 normal forwards;
+  animation-delay: 3.5s;
+}
+
+.xoong3 {
+  position: relative;
+  right: -200px;
+  animation: xoong2 1s ease-in-out 1 normal forwards;
+  animation-delay: 5s;
+}
+
+.xoong4 {
+  position: relative;
+  right: -200px;
+  animation: xoong2 1s ease-in-out 1 normal forwards;
+  animation-delay: 6.5s;
+}
+.xoong5 {
+  position: relative;
+  right: -200px;
+  animation: xoong2 1s ease-in-out 1 normal forwards;
+  animation-delay: 8s;
+}

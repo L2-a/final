@@ -183,8 +183,8 @@
 }
 .bubble__img img {
   border: none;
-  width: 130px;
-  height: 250px;
+  width: 150px;
+  height: 300px;
 }
 .bubble__time {
   color: var(--color);

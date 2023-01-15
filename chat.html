@@ -28,7 +28,7 @@
         <div class="chat__timestamp">Monday, January 16, 2023</div>
 
         <div class="message-row">
-          <img src="/photo/l2a.jpg" />
+          <img src="../photo/l2a.jpg" />
           <div class="maessage-row__content">
             <span class="message__author"> L2____a </span>
             <div class="message__info">
@@ -37,9 +37,59 @@
             </div>
           </div>
         </div>
-      </section>
-    </div>
 
+        <div class="message-row message-row--own">
+          <div class="maessage-row__content">
+            <div class="message__info">
+              <span class="message__bubble">나는 집가는 중~</span>
+              <span class="message__time">08:25</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bubble__photo">
+          <div class="bubble__time">08:25</div>
+          <div class="bubble__img">
+            <img src="./photo/selfie2.jpg.png" />
+          </div>
+        </div>
+
+        <div class="bubble__photo">
+          <div class="bubble__time">08:26</div>
+          <div class="bubble__img">
+            <img src="./photo/selfie.jpg" />
+          </div>
+        </div>
+
+        <div class="bubble__photo">
+          <div class="bubble__time">08:26</div>
+          <div class="bubble__img">
+            <img src="./photo/selfie3.jpg.png" />
+          </div>
+        </div>
+      </section>
+
+      <form class="reply">
+        <div class="reply__column">
+          <i class="bi bi-plus-square"></i>
+        </div>
+        <div class="reply__column">
+          <input
+            type="text"
+            placeholder="Write messsages :) "
+            style="
+              border: none;
+              border-bottom: 2px dotted rgb(98, 89, 77);
+              background: transparent;
+            "
+          />
+          <i class="bi bi-emoji-wink"></i>
+          <button>
+            <i class="bi bi-arrow-up-circle"></i>
+          </button>
+        </div>
+      </form>
+    </div>
     <!--media query-->
     <div id="too-big">
       <span>Your Sreen is TOO BIG :(</span>

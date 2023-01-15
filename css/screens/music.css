@@ -34,6 +34,11 @@
   background: none;
 }
 
+#search:focus,
+#search:active {
+  outline: none;
+}
+
 /*Play List*/
 .music__box + a {
   text-decoration: none;

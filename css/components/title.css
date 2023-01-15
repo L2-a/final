@@ -1,0 +1,25 @@
+.title {
+  color: var(--color);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.home-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: auto;
+  border-radius: 10px;
+  background-color: rgba(65, 48, 35, 0.318);
+  padding: 10px 0;
+}
+.home-tittle__name {
+  font-size: 37px;
+  font-weight: 900;
+  margin-right: 10px;
+}
+.home-tittle__page {
+  font-size: 30px;
+  font-weight: 700;
+}

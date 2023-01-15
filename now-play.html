@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NOW-PLAY</title>
+  </head>
+  <body>
+    <div class="huge-box">
+      <main class="right-screen">
+        <header class="right-header">
+          <a href="music.html" style="color: var(--color)"
+            ><div class="header-angle">
+              <i class="bi bi-chevron-left"></i></div
+          ></a>
+          <div class="header-more">
+            <i class="bi bi-three-dots-vertical"></i>
+          </div>
+        </header>
+
+        <section class="play-album">
+          <div class="play_background">
+            <img src="photo/You_make_ME.jpg" />
+          </div>
+        </section>
+
+        <section class="play-info">
+          <span class="play-info__title">You make ME</span>
+          <span class="play-info__name">DAY6</span>
+          <i class="bi bi-suit-heart-fill"></i>
+        </section>
+
+        <section class="play-bar">
+          <div class="length">
+            <label for="fader"></label>
+            <input
+              type="range"
+              min="0"
+              max="100"
+              value="40"
+              id="fader"
+              step="1"
+            />
+            <output for="fader" class="duration">3:03</output>
+          </div>
+        </section>
+
+        <section class="play-btn">
+          <i class="bi bi-repeat"></i>
+          <i class="bi bi-skip-start-fill"></i>
+          <i class="bi bi-play-circle"></i>
+          <i class="bi bi-skip-end-fill"></i>
+          <i class="bi bi-shuffle"></i>
+        </section>
+
+        <section class="play-opt">
+          <span>EQ FLAC</span>
+          <a href="music.html" style="color: var(--color)">
+            <i class="bi bi-music-note-list"></i
+          ></a>
+        </section>
+      </main>
+    </div>
+
+    <!--media query-->
+    <div id="too-big">
+      <span>Your Sreen is TOO BIG :(</span>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

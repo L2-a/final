@@ -1,0 +1,230 @@
+.music__box {
+  width: 410px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*options*/
+.music__options {
+  width: 410px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.music__options > .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  padding: 7px 0;
+  background-color: rgba(92, 73, 66, 0.311);
+  border-radius: 15px;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.308);
+  margin-right: 10px;
+}
+.btn > i {
+  margin-right: 5px;
+}
+
+#search {
+  border: none;
+  background: none;
+}
+
+/*Play List*/
+.music__box + a {
+  text-decoration: none;
+}
+
+.song-list {
+  box-sizing: border-box;
+  width: 410px;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  color: var(--color);
+
+  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin-top: 20px;
+  -ms-overflow-style: none;
+  background-color: rgba(94, 86, 79, 0.049);
+}
+.song-list::-webkit-scrollbar {
+  display: none;
+}
+.song {
+  margin: 10px 15px 0px 15px;
+
+  width: 380px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.song-info {
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.song-opt {
+  margin-right: 10px;
+}
+.one {
+  background-image: url("../../photo/Congratulations.jpg");
+  background-size: contain;
+}
+.two {
+  background-image: url(../../photo/You_make_ME.jpg);
+  background-size: contain;
+}
+.three {
+  background-image: url(../../photo/문득.jpg);
+  background-size: contain;
+}
+.four {
+  background-image: url(../../photo/Love_me_or_Leave\ me.jpg);
+  background-size: contain;
+}
+.five {
+  background-image: url(../../photo/Sweet_Chaos.jpg);
+  background-size: contain;
+}
+.six {
+  background-image: url(../../photo/garvity.jpg);
+  background-size: contain;
+}
+
+.seven {
+  background-image: url(../../photo/Sweet_Chaos.jpg);
+  background-size: contain;
+}
+
+.eight {
+  background-image: url(../../photo/shoot.jpg);
+  background-size: contain;
+}
+
+.nine {
+  background-image: url(../../photo/right.jpg);
+  background-size: contain;
+}
+
+.ten {
+  background-image: url(../../photo/Love_me_or_Leave\ me.jpg);
+  background-size: contain;
+}
+
+.eleven {
+  background-image: url(../../photo/Congratulations.jpg);
+  background-size: contain;
+}
+
+.one-two {
+  background-image: url(../../photo/right.jpg);
+  background-size: contain;
+}
+
+.one-three {
+  background-image: url(../../photo/Sweet_Chaos.jpg);
+  background-size: contain;
+}
+
+.one-four {
+  background-image: url(../../photo/Sweet_Chaos.jpg);
+  background-size: contain;
+}
+
+.one-five {
+  background-image: url(../../photo/Love_me_or_Leave\ me.jpg);
+  background-size: contain;
+}
+
+.one-six {
+  background-image: url(../../photo/garvity.jpg);
+  background-size: contain;
+}
+
+.one-seven {
+  background-image: url(../../photo/Congratulations.jpg);
+  background-size: contain;
+}
+
+.album-img {
+  height: 70px;
+  width: 70px;
+  margin: 8px 0 8px 25px;
+  border-radius: 2.5px;
+}
+
+.artist-name {
+  font-weight: 900;
+  font-size: 20px;
+}
+.song-title {
+  font-weight: 900;
+  font-size: 25px;
+}
+.korean {
+  font-family: "Do Hyeon", sans-serif;
+}
+.korean-title {
+  margin-top: 5px;
+  font-size: 30px;
+  font-family: "Do Hyeon", sans-serif;
+}
+.korean-title-2 {
+  margin-top: 5px;
+  font-size: 25px;
+  font-family: "Do Hyeon", sans-serif;
+}
+
+/*now play*/
+.now-play {
+  box-sizing: border-box;
+  width: 410px;
+  height: 80px;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 15px;
+  box-shadow: rgb(193, 161, 139) 3px 3px 6px 0px inset,
+    rgba(74, 57, 44, 0.505) -3px -3px 6px 1px inset;
+  border-radius: 15px;
+  padding: 5px 10px;
+}
+.now-play__info {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 2px;
+  left: 3px;
+  width: 50%;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+.now-play__btn {
+  width: 50%;
+  justify-content: space-between;
+}
+.now-play__name {
+  font-weight: 700;
+  font-size: 25px;
+}
+.now-play__title {
+  font-weight: 900;
+  font-size: 30px;
+}
+.now-play__btn > .bi {
+  font-size: 50px;
+}

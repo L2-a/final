@@ -1,0 +1,75 @@
+/*basic*/
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300;500;700;900&display=swap");
+@import "variables.css";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap");
+
+/*componenets*/
+@import "css/components/title.css";
+@import "css/components/nav.css";
+
+/*screens*/
+@import "css/screens/home.css";
+@import "css/screens/music.css";
+@import "css/screens/drum.css";
+@import "css/screens/welcome.css";
+@import "css/screens/now-play.css";
+@import "css/screens/follower.css";
+@import "css/screens/message.css";
+@import "css/screens/chat.css";
+/*style*/
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Sofia Sans", sans-serif;
+
+  color: rgb(3, 3, 42);
+}
+
+.huge-box {
+  height: 660px;
+  width: 460px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-image: url(../photo/background.jpg);
+
+  background-size: 100% 100%;
+  padding: 20px 25px;
+  border-radius: 20px;
+  box-shadow: rgba(25, 25, 25, 0.607) 0px 6px 24px,
+    rgba(55, 55, 55, 0.445) 0px 12px 36px, rgba(49, 49, 50, 0.263) 0px 24px 84px;
+  position: relative;
+}
+
+#too-big {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: antiquewhite;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  font-size: 70px;
+  top: 0;
+  left: 0;
+  color: var(--color);
+}
+
+@media screen and (max-width: 650px) {
+  #too-big {
+    display: none;
+  }
+}
+
+/*임시*/
+img {
+  width: 30px;
+  height: 30px;
+}

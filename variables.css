@@ -1,0 +1,7 @@
+:root {
+  --color: rgb(72, 55, 41);
+}
+:root {
+  --item-width: 250px; /* 아이템 너비 */
+  --column-count: 4; /* 컬럼 개수 */
+}

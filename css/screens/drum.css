@@ -1,0 +1,18 @@
+.drum__box {
+  display: f;
+  box-sizing: border-box;
+  background-image: url(../../photo/craft.png);
+  background-size: 100% 100%;
+  width: 410px;
+  height: 480px;
+  padding: 40px;
+  justify-content: space-between;
+}
+.drum__box img {
+  width: 90px;
+  height: 90px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.46) 0px 0px 10px 0px,
+    rgba(0, 0, 0, 0.392) 0px 0px 5px 0px;
+}
